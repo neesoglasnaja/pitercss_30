@@ -1,0 +1,207 @@
+main-color = #1471B6
+important-color = #a11212
+
+.shower.full
+	background-color: #111
+
+.slide::after
+	color main-color
+	background none
+	height 75px
+	right 20px
+.slide::before
+	position absolute
+	top: 75px;
+	right: 100px;
+	height 50px
+.slide
+	padding-top 60px
+	padding-left 60px
+	&.white-header
+		h2
+			color white
+	h2
+		color main-color
+		span
+			font-size 0.6em
+			display block
+	.formula
+		font-size 48px
+		margin 50px auto 0
+		width 600px
+		text-align center !important
+		font-style italic
+		
+		th
+		td
+			padding 0 !important
+		th
+			width 20%
+			vertical-align middle
+			background none !important
+			text-align right !important
+			padding-right 30px !important
+			font-size 120%
+			font-weight normal
+			
+
+.html
+	color #666
+
+.hightlight
+.important
+.alert
+	border-radius 0.2em
+	padding 0.1em 0.3em
+.hightlight
+	background #fafaa2
+.hightlight *
+	color #000 !important
+.important
+	background important-color
+	color #fff
+.important *
+	color #fff !important
+.alert
+	background #D10A0A
+	color #fff
+.alert *
+	color #fff !important
+.comment
+	color #999999
+	
+.progress
+	border-color main-color rgba(0, 0, 0, 0) main-color main-color
+	
+
+.tag
+	color #AD1531
+.attr
+	color #4F7302
+
+.slide
+	.shout.smaller
+		font-size 90px
+		a
+			color #fff
+	&.menu-slide
+		h2
+			font-size 120px
+			margin-bottom 0
+			padding 0 30px
+		ul
+			color #FFF
+			& > li
+				font-size 120px
+				line-height 1
+				font-weight bold
+				padding 0 30px
+				&:before
+					opacity 0
+			
+		.selected-item
+			background-color main-color
+			display inline-block
+			
+		.transparent
+			opacity 0.25
+	&.label-header
+		h2
+			display inline-block
+			padding 10px 30px
+			background-color main-color
+			color #fff
+			&.shout
+				width auto
+				margin-left 100px
+				margin-top 200px
+				padding-top 20px
+				padding-bottom 20px
+				font-size 48px
+	&.capture
+		h2
+			color: #ffffff
+			font-size 64px;
+			margin-top 250px
+			text-shadow 0 0 30px #000, 0 0 30px #000, 0 0 30px #000, 0 0 30px #000
+	h2 .label
+		color #FFF
+		padding 10px 40px
+		font-size 120px
+		&.right 
+			float right
+		
+	p.center
+		text-align center
+		img
+			max-width 100%
+
+	p.quote
+		text-align center
+		font-style italic
+		
+	&.white
+		p
+		ul
+			color #FFF
+
+blockquote
+	font-size 35px	
+	line-height 1.4
+	
+figcaption
+	opacity 0.5
+	position: relative
+	line-height: 1.6
+	margin-top: 40px !important
+
+.label
+	background-color main-color
+	color #fff
+	padding 0 10px
+	display inline-block
+
+.screen-example
+	vertical-align top
+	float right
+	border 1px solid #efefef
+	padding-top 10px
+	width 700px
+	
+.relative
+	position relative
+
+	
+.slide ol.no-indent li, .slide ul.no-indent li
+	text-indent 0
+	margin-bottom 5px
+	
+.frame
+	box-shadow 0 0 5px 5px #eee
+	line-height 0
+	border-radius 15px 15px 0 0
+	.title
+		background-color #efefef
+		height 30px
+		border-radius 15px 15px 0 0
+		border 1px solid #aaa
+		border-bottom-width 0
+		line-height 24px
+		padding-left 15px
+	.btn
+		height 13px
+		width 13px
+		display inline-block
+		border-radius 50%
+		&.close
+			background-color red
+		&.hide
+			background-color yellow
+		&.expand
+			background-color green
+	
+.fade-opacity
+	opacity 0.25
+.opacity-0
+	opacity 0
+	
