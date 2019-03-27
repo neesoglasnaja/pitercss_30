@@ -30,7 +30,7 @@ html(lang='ru')
       p
         img.logo(src="pictures/minskcss.png")
         img.logo(src="pictures/minskjs.png")
-        img.logo(src="pictures/css-minsk-js.svg")
+        img.logo(src="pictures/css-minsk-js.svg", style="background-color: #2b2727; height: 152px")
       +cover('pictures/about-cover.jpg')
     +slide({header: "Есть верстальщики-новички?", classes: ""})
       +cover('pictures/deadline.jpg')
@@ -55,8 +55,15 @@ html(lang='ru')
           | )
         li
           a(href="https://medium.com/russian/frontend-dev-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B9-%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%D0%B9-%D0%B7%D0%BB%D0%BE%D0%B9-%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B9-%D0%BF%D1%83%D1%82%D1%8C-865b640d5d18", target="_blank") Frontend Dev: хороший, плохой, злой
-      p
+      ul
+        li
+          a(href="https://frontendmasters.com/books/front-end-handbook/2018/", target="_blank") Front-End Developer Handbook 2018
       +cover('pictures/frontend.jpg', target="_blank")
+    +slide({header: "Фулстек-разработчик", classes: ""})
+      ul
+        li
+          a(href="https://timeweb.com/ru/community/articles/kak-stat-full-stack-razrabotchikom-v-2018-godu-1", target="_blank") Как стать full-stack разработчиком<br>в 2018 году
+      +cover('pictures/full-stack.jpg', target="_blank")
     +slide({header: "Истина где-то рядом", classes: ""})
       ul.half
         li Другие языки, подходы и парадигмы
@@ -93,6 +100,7 @@ html(lang='ru')
       ul
         li Практика
           ul
+            li.next Курсы в офлайне
             li.next Онлайн-курсы
             li.next Интерактивные курсы
             li.next Open source
@@ -147,20 +155,24 @@ html(lang='ru')
         li Логируйте свое время
         li.next Делайте анализ
         li.next Перестаньте системно перерабатывать
-      ul.next
+      ul.next(style="font-size: .9em")
         li
           a(href="https://youtu.be/oBa5Xz8hzeA", target="_blank") Оценка фронтенда: перестаем тыкать
             br
             | пальцем в небо
           |  (Youtube)
+      ul.next(style="font-size: .9em")
         li
-          a(href="https://habrahabr.ru/post/75903/", target="_blank") Десять смертных грехов в оценке
+          a(href="https://tonsky.livejournal.com/317265.html", target="_blank") История одной депрессии, Никита Прокопов
+        li
+          a(href="https://askd.livejournal.com/127949.html", target="_blank") Как я летала на Марс, Анна Селезнева
       +cover('pictures/time.jpg')
     +slide({header: "Ответственность", classes: ""})
       ul
         li Вы отвечаете за код, который пишете
         li.next Помните о возможной цене ошибки
-        li.next Тестируйте и перепроверяйте
+        li.next
+          a(href="https://neesoglasnaja.github.io/moscowcss_11") Тестируйте и перепроверяйте
         li.next Будьте "здоровым" перфекционистом
       +cover('pictures/responsibility.jpg')
     +slide({header: "Здоровье и спорт", classes: "white-header"})
@@ -190,7 +202,7 @@ html(lang='ru')
         li "Мифический человеко-месяц", Фредерик Брукс
     +slide({name: 'theend', header: "Вопросы?", classes: 'cover last'})
       p.end-link
-        a.bigger(href="http://bit.ly/MinskCSS-Junior" target="_blank") bit.ly/MinskCSS-Junior
+        a.bigger(href="http://bit.ly/PiterCSS-Junior" target="_blank") bit.ly/PiterCSS-Junior
         br
         | Александра Шинкевич (
         a(href='https://twitter.com/neesoglasnaja' target="_blank") @neesoglasnaja
